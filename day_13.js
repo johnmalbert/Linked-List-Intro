@@ -71,7 +71,7 @@ class SLLNode {
       if(!this.head){
         return false;
       }
-      head = this.head;
+      var head = this.head;
       // create a runner
       let runner = this.head;
       //move to end of the list, if the end 
